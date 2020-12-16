@@ -19,18 +19,18 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <img src="images/logo.png" width="125px">
+                    <a href="index.html"><img src="images/logo.png" width="125px"></a>
                 </div>
                 <nav>
                     <ul id="menuItems">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Products</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Account</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="#contact-section">About</a></li>
+                        <li><a href="#contact-section">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
                     </ul>
                 </nav>
-                <img src="images/cart.png" width="30px" height="30px">
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
                 <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
             <div class="row">
@@ -39,7 +39,7 @@
                     <p>Success isn't always about greatness. It's about consistency.Consistent<br>hardwork gains
                         success.
                         Greatness will come.</p>
-                    <a href="" class="btn">Explore Now &#8594;</a>
+                    <a href="products.html" class="btn">Explore Now &#8594;</a>
                 </div>
                 <div class="col-2">
                     <img src="images/image1.png">
@@ -71,8 +71,10 @@
                 <h2 class="title">Featured Products</h2>
                 <div class="row">
                     <div class="col-4">
-                        <img src="images/product-1.jpg">
-                        <h4>Red Printed T-Shirt</h4>
+                        <a href="product-details.html"><img src="images/product-1.jpg"></a>
+                        <a href="product-details.html">
+                            <h4>Red Printed T-Shirt</h4>
+                        </a>
                         <div class="rating">
                             <i class="icon ion-ios-star"></i>
                             <i class="icon ion-ios-star"></i>
@@ -318,6 +320,7 @@
             </div>
         </div>
         <!-----------------------footer---------------------------->
+        <section id="contact-section">
         <div class="footer">
             <div class="container">
                 <div class="row">
@@ -355,6 +358,7 @@
                 </div>
             </div>
         </div>
+        </section>
 </body>
 
 <!-----------------JS for Menu Toogle-->
